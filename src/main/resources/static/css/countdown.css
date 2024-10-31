@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#headline {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.countdownTitle {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.countdownTitle span {
+    padding: 0.5em;
+    display: block;
+    font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+    #headline {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    .countdownTitle {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    .countdownTitle span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}

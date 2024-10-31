@@ -1,0 +1,81 @@
+.plane {
+	display: inline-block;
+	height: auto;
+	background: #f2f2f2;
+	border-radius: 150px 150px 0 0;
+	z-index: 1;
+	padding: 20px;
+}
+
+.row-container {
+	display: flex;
+	align-items: center;
+}
+
+.row-counter {
+	font-weight: bold;
+	margin-right: 5px;
+	position: relative;
+	display: inline-block;
+	color: #3B67C4;
+	width: 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.seat-container {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.seat-number {
+	font-size: 12px;
+	position: absolute;
+	margin-left: 5px;
+	width: 100%;
+	text-align: left;
+}
+
+.seat-number-most-left {
+	font-size: 12px;
+	position: absolute;
+	margin-left: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.seat {
+	width: 32px;
+	height: 32px;
+	margin-top: 25px;
+	background-color: #ccc;
+	display: inline-block;
+	border: 0px;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+	border-radius: 120px 120px 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.available {
+	background-color: #cfcccc;
+}
+
+.unavailable {
+	background-color: #d14b4b;
+}
+
+.selected-seat {
+	background-color: #8fcca0;
+}
+
+.selected-seat-old {
+	background-color: orange;
+}
+
+.selected-passenger {
+	border: 2px solid #8fcca0;
+}
